@@ -1,6 +1,6 @@
 ## Overview
 
-QuickSpawn is a powerful and versatile plugin for managing your Minecraft server's spawn point. With QuickSpawn, you can set a precise spawn location, customize teleportation behaviors, and enhance player experience with configurable messages and sounds. Key features include:
+QuickSpawn is a powerful and versatile Minecraft plugin for managing your Minecraft server's spawn point. With QuickSpawn, you can set a precise spawn location, customize teleportation behaviors, and enhance player experience with configurable messages and sounds. Key features include:
 
   - Flexible Spawn Management: Set the spawn point with exact coordinates, yaw, and pitch.
   - Teleportation Controls: Teleport players to the spawn on join, first join, or death. Customize cooldowns and whether to overwrite existing respawn points.
