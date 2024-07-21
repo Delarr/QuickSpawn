@@ -26,7 +26,7 @@ QuickSpawn is a powerful and versatile plugin for managing your Minecraft server
 
 Commands
 
-  -/spawn: Teleports you to the server spawn.
+  - /spawn: Teleports you to the server spawn.
 
   - /setspawn: Sets the current location as the server spawn.
 
