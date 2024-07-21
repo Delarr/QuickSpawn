@@ -10,21 +10,21 @@ QuickSpawn is a powerful and versatile plugin for managing your Minecraft server
 
 ## Installation
 
-  Download the Plugin:
+  **Download the Plugin**:
     Obtain the latest version of QuickSpawn.
 
-  Place the Plugin in Your Server:
+  **Place the Plugin in Your Server**:
     Move the downloaded .jar file into the plugins directory of your Minecraft server.
 
-  Restart Your Server:
+  **Restart Your Server**:
     Start or restart your Minecraft server to load the QuickSpawn plugin.
 
-  Verify Installation:
+  **Verify Installation**:
     Check the server console for any errors related to the plugin. You should also see a message indicating that QuickSpawn has been enabled.
 
 ## Usage
 
-Commands
+**Commands**
 
   - /spawn: Teleports you to the server spawn.
 
@@ -32,7 +32,7 @@ Commands
 
   - /reload: Reloads the plugin configuration.
 
-Permissions
+**Permissions**
 
   - quickspawn.spawn: Allows players to use the /spawn command. Default is true.
   - quickspawn.setspawn: Allows players to use the /setspawn command. Default is op.
@@ -40,15 +40,15 @@ Permissions
 
 ## CONFIGURATION
 
-Configuration File
+**Configuration File**
 
 Located in plugins/QuickSpawn/config.ini, this file contains various settings you can customize.
 
-Prefix
+**Prefix**
 
   - prefix: The prefix used in messages from the plugin. Format with Minecraft color codes.
 
-Spawn Location
+**Spawn Location**
 
   - spawnWorld: The name of the world where the spawn location is set.
   - spawnLocationX: X coordinate of the spawn location.
@@ -57,23 +57,23 @@ Spawn Location
   - spawnYaw: The yaw of the spawn location.
   - spawnPitch: The pitch of the spawn location.
 
-Cooldown
+**Cooldown**
 
   - cooldown: Time in milliseconds that players must wait to use /spawn again. You can disable this by setting it to 0.
 
-Teleportation Settings
+**Teleportation Settings**
 
   - teleportOnDeath: Set to yes to teleport players to the spawn upon death.
   - forceTeleportOnDeath: Set to yes to overwrite all other respawn points with the server spawn.
   - teleportOnJoin: Set to yes to teleport players to the spawn every time they join.
   - teleportOnFirstJoin: Set to yes to teleport players to the spawn when they join for the first time.
 
-Sounds
+**Sounds**
 
   - setSpawnSound: Sound played when the spawn is set. Leave empty if no sound.
   - teleportToSpawnSound: Sound played when teleporting to spawn. Leave empty if no sound.
 
-Messages
+**Messages**
 
   - tryingToReloadMessage: Message shown when reloading the plugin.
   - successfullyReloadedMessage: Message shown when the plugin is successfully reloaded.
@@ -87,7 +87,7 @@ Messages
   - cooldownMessage: Message shown when the cooldown is active.
 
 
-Troubleshooting
+**Troubleshooting**
 
   - Plugin Not Working: Ensure there are no errors in the server console. Verify the plugin version is compatible with your server version.
 
