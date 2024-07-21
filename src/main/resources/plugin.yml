@@ -1,0 +1,24 @@
+name: QuickSpawn
+version: '${project.version}'
+main: de.delar.quickspawn.QuickSpawn
+api-version: '1.20'
+commands:
+  spawn:
+    description: Teleports you to the server spawn
+    permission: quickspawn.spawn
+  setspawn:
+    description: Sets the server spawn
+    permission: quickspawn.setspawn
+  reload:
+    description: Reloads the plugin
+    permission: quickspawn.reload
+permissions:
+  quickspawn.spawn:
+    description: Allows you to teleport to the server spawn
+    default: true
+  quickspawn.setspawn:
+    description: Allows you to set the server spawn
+    default: op
+  quickspawn.reload:
+    description: Allows you to reload the plugin
+    default: op
