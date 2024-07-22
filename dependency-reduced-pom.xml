@@ -4,7 +4,7 @@
   <groupId>de.delar</groupId>
   <artifactId>quickspawn</artifactId>
   <name>QuickSpawn</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <build>
     <resources>
       <resource>
