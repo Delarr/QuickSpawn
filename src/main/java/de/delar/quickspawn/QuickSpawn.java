@@ -25,8 +25,6 @@ public final class QuickSpawn extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
     }
 
-
-    //!!## fix
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         if(Config.spawn == null){
@@ -36,7 +34,9 @@ public final class QuickSpawn extends JavaPlugin implements Listener {
         Player player = event.getPlayer();
 
         if (Config.onJoin.equals("yes") || Config.onJoin.equals("true")){
-            Spawn.TeleportToSpawn(player);
+            if(player.hasPlayedBefore()){
+                Spawn.TeleportToSpawn(player);
+            }
             return;
         }
         if (Config.onFirstJoin.equals("yes") || Config.onFirstJoin.equals("true")){
